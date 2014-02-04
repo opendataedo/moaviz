@@ -1,0 +1,104 @@
+{
+  "bounds": [
+    4.043,
+    5.0691,
+    7.4707,
+    7.7981
+  ],
+  "center": [
+    5.8942,
+    6.6592,
+    8
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "pois",
+    "template_teaser": "<B>{{{poi}}} {{{Type}}}:</B><br>\n{{{Description}}}\n"
+  },
+  "minzoom": 8,
+  "maxzoom": 9,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99978348919961,
+        -85.051,
+        180,
+        83.63381093402975
+      ],
+      "id": "mapunits",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-map-units.zip"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "mapunits"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99999999990007,
+        -55.91477792755927,
+        180,
+        83.63432689077344
+      ],
+      "id": "provinces",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-1-states-provinces-shp.zip"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "provinces"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        4.997615229435906,
+        5.75206499583317,
+        6.717040284459266,
+        7.57695565698587
+      ],
+      "id": "lgaoilpalm",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\edsgICT-WB52\\Desktop\\Samhir\\Shapefile and data\\lga_shapes_joined.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "lgaoilpalm"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        4.71777,
+        5.363092,
+        6.691947,
+        7.520426999999999
+      ],
+      "id": "pois",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\edsgICT-WB52\\Desktop\\oil-Coords.csv"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "pois"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "oilpalm-map",
+  "description": "",
+  "legend": "<!-- This legend uses Unicode box-drawing characters to approxmate line styles. -->\n<table border=\"0\">\n<tr><td>\n<span style='color:#f7cf4c' width=\"32px\">▉</span></td><td> Suitable Areas \n</td></tr><tr><td>\n<span style='color:#FFC53C'><img src=\"http://ambagape.com/ports.png\" width=\"32px\"></span> </td><td>Ports \n</td></tr><tr><td>\n<span style='color:#3b254b'></span><img src=\"http://ambagape.com/investors.png\" width=\"32px\"></span></td><td> Ear-marked Land \n</td></tr><tr><td>\n<span style='color:#f45'></span><img src=\"http://ambagape.com/towns.png\" width=\"32px\"></span> </td><td>Towns \n</td></tr><tr><td>\n<span style='color:#3b254b'><img src=\"http://ambagape.com/electricity.png\" width=\"32px\"></span></td><td> Power Plants \n</td></tr></table>",
+  "attribution": ""
+}
